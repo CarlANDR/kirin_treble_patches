@@ -1,0 +1,13 @@
+diff --git a/private/file_contexts b/private/file_contexts
+index 03967148..dc07bfbd 100644
+--- a/private/file_contexts
++++ b/private/file_contexts
+@@ -183,6 +183,8 @@
+ /system/bin/sload_f2fs	--	u:object_r:e2fs_exec:s0
+ /system/bin/make_f2fs	--	u:object_r:e2fs_exec:s0
+ /system/bin/fsck_msdos	--	u:object_r:fsck_exec:s0
++/system/bin/fsck.exfat -- u:object_r:fsck_exec:s0
++/system/bin/mount.exfat -- u:object_r:fsck_exec:s0
+ /system/bin/tune2fs	--	u:object_r:fsck_exec:s0
+ /system/bin/toolbox	--	u:object_r:toolbox_exec:s0
+ /system/bin/toybox	--	u:object_r:toolbox_exec:s0
