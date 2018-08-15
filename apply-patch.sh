@@ -46,7 +46,7 @@ patch -p1 < ../../../patches/platform_frameworks_opt_telephony/0001-Telephony-Fi
 patch -p1 < ../../../patches/platform_frameworks_opt_telephony/0001-telephony-fix-2g-2g-4g-switch.patch
 cd ../../..
 cd system/bt
-patch -p1 < ../../patches/platform_frameworks_bt/0001-Make-BTM_BYPASS_EXTRA_ACL_SETUP-dynamic.patch
+patch -p1 < ../../patches/platform_system_bt/0001-Make-BTM_BYPASS_EXTRA_ACL_SETUP-dynamic.patch
 cd ../..
 cd system/core
 patch -p1 < ../../patches/platform_system_core/0001-Revert-logd-add-passcred-for-logdw-socket.patch
